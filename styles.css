@@ -119,6 +119,7 @@ body {
 	width: 30%;
 	margin-bottom: 20px;
 }
+
 .img-text-wrapper .subtitle {
 	font-weight: 600;
 	transition: 1s;
@@ -134,8 +135,7 @@ body {
 .img-darken {
 	transition: 1s;
 	filter: brightness(10%);
-	
-	
+		
 }
 	
 /* About page styles*/
