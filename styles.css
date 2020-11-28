@@ -14,7 +14,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding: 15px;
-	background-color: blue;
+	background-color: lightseagreen;
 }
 
 .header {
@@ -67,7 +67,7 @@ body {
 .portfolio-items-wrapper {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		
+				
 }
 	
 .portfolio-item-wrapper {
@@ -102,6 +102,53 @@ body {
 	background-repeat: no-repeat;
 	
 }
+
+.Projects-portfolio-img-background {
+	height: 400px;
+	width: 100%;
+	background-size: circle;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+.OurStory-portfolio-img-background {
+	height: 400px;
+	width: 100%;
+	background-size: circle;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+.FAQs-portfolio-img-background {
+	height: 400px;
+	width: 100%;
+	background-size: circle;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+.ContactUs-portfolio-img-background {
+	height: 400px;
+	width: 100%;
+	background-size: circle;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+.GettingStarted-portfolio-img-background {
+	height: 400px;
+	width: 100%;
+	background-size: circle;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+
 .img-text-wrapper {
 	position: absolute;
 	top: 0;
@@ -143,19 +190,50 @@ body {
 .two-column-wrapper {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-background-color: lightseagreen;	
+	background-color: whitesmoke;	
 }
+
 
 .Dashboard-two-column-wrapper {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-background-color: lightseagreen;	
+background-color: gray;	
 }
 
 .Integrations-two-column-wrapper {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-background-color: lightseagreen;	
+background-color: gray;	
+}
+
+.GettingStarted-two-column-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+background-color: gray;	
+}
+
+.Projects-two-column-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+background-color: gray;	
+}
+
+.OurStory-two-column-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+background-color: gray;	
+}
+
+.FAQS-two-column-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+background-color: gray;	
+}
+
+.ContactUs-two-column-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+background-color: gray;	
 }
 
 .profile-image-wrapper img {
@@ -164,6 +242,7 @@ background-color: lightseagreen;
 
 .profile-content-wrapper {
 	padding: 30px;
+	background-color: aqua;
 }
 
 .profile-content-wrapper h1 {
@@ -184,6 +263,46 @@ background-color: lightseagreen;
 
 .Integrations-profile-content-wrapper h2 {
 	padding: 20px;
+}
+
+.GettingStarted-profile-content-wrapper {
+	padding: 30px;
+}
+
+.GettingStarted-profile-content-wrapper h2 {
+	padding: 30px;
+}
+
+.Projects-profile-content-wrapper {
+	padding: 30px;
+}
+
+.Projects-profile-content-wrapper h2 {
+	padding: 20px;
+}
+
+.OurStory-profile-content-wrapper {
+	padding: 30px;
+}
+
+.OurStory-profile-content-wrapper h2 {
+	padding: 30px;
+}
+
+.FAQS-profile-content-wrapper {
+	padding: 30px;
+}
+
+.FAQS-profile-content-wrapper h2 {
+	padding: 20px;
+}
+
+.ContactUs-profile-content-wrapper {
+	padding: 30px;
+}
+
+.ContactUs-profile-content-wrapper h2 {
+	padding: 30px;
 }
 
 
